@@ -6,7 +6,6 @@ const createUser = ( {firstName, lastName, email} ) => ({
     fullName()  {
         return `Hello ${this.firstName} ${this.lastName}`
     }
-
 })  
 
 const user1 = createUser({
